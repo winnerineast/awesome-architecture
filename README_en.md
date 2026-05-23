@@ -15,7 +15,7 @@
 
 For the past two decades, a programmer's core edge was **writing code correctly and fast**.
 
-But something is happening, and faster than most are willing to admit: **"writing code" as a scarce skill is ending.** This isn't hyperbole — at frontier labs like OpenAI and Anthropic, the vast majority of code is already written by AI, and engineers no longer type out implementations line by line. They've moved upstream: **deciding what the AI should build, then judging whether it got it right.** Once a machine produces working code in seconds, knowing "`for` vs `map`, this API, that syntax" stops being a moat almost overnight.
+But something is happening right in front of us: **"writing code" is disappearing.** Not getting harder, not getting scarcer — *ending*, as a craft that humans do. At frontier labs like OpenAI and Anthropic, almost all code is already written by AI; human engineers no longer type out implementations by hand. They do just two things: **tell the AI what to build, then judge whether it got it right.** Once a machine spits out working code in seconds, knowing "`for` vs `map`, that API, this syntax" — the old craft — is worth nothing overnight.
 
 What *isn't* depreciating — and is in fact getting more valuable — is a different skill:
 
