@@ -13,6 +13,7 @@ const zhTutorial = [
   { text: '08 · 架构决策记录与演进', link: '/tutorial/08-架构决策记录与演进' },
   { text: '09 · 架构品味', link: '/tutorial/09-架构品味' },
   { text: '附录 · 架构术语表', link: '/tutorial/术语表' },
+  { text: '附录 · 何时升级架构(触发信号)', link: '/tutorial/演进触发信号' },
 ]
 
 const zhCommon = [
