@@ -143,3 +143,9 @@ Contributions are welcome — new templates, fixes, and especially **English tra
 4. Add a row to the template list.
 
 > The bar: an engineer who has never touched this domain can, after reading your template, explain "why this class of system is designed this way, and where it dies".
+
+---
+
+## 🔗 Friends
+
+- [LINUX DO](https://linux.do/) — "Where possible begins." A new ideal-type community for developers who love tech and sharing.
