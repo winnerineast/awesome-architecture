@@ -16,6 +16,14 @@ const zhTutorial = [
   { text: '附录 · 何时升级架构(触发信号)', link: '/tutorial/演进触发信号' },
 ]
 
+const zhTutorialAdvanced = [
+  { text: '10 · 分布式系统的硬道理', link: '/tutorial/10-分布式系统的硬道理' },
+  { text: '11 · 数据一致性工程', link: '/tutorial/11-数据一致性工程' },
+  { text: '12 · 为失败而设计:韧性工程', link: '/tutorial/12-为失败而设计' },
+  { text: '13 · 规模化的力学', link: '/tutorial/13-规模化的力学' },
+  { text: '14 · 演进与拆分大型系统', link: '/tutorial/14-演进与拆分大型系统' },
+]
+
 const zhCommon = [
   { text: 'AI 对话产品', link: '/templates/ai-chat-product/README' },
   { text: '浏览器插件', link: '/templates/browser-extension/README' },
@@ -52,7 +60,7 @@ const zhAgent = [
 
 export default defineConfig({
   title: 'Awesome Architecture',
-  description: '专注「架构思维」的中文知识库:8 章教程 + 25 张真实系统架构地图。',
+  description: '专注「架构思维」的中文知识库:14 章教程(入门 + 进阶)+ 25 张真实系统架构地图。',
   lang: 'zh-Hans',
   base: process.env.GITHUB_PAGES ? '/awesome-architecture/' : '/',
   cleanUrls: true,
@@ -62,7 +70,7 @@ export default defineConfig({
   head: [
     ['meta', { name: 'theme-color', content: '#3c8772' }],
     ['meta', { property: 'og:title', content: 'Awesome Architecture · 架构图谱' }],
-    ['meta', { property: 'og:description', content: '像架构师一样思考:8 章教程 + 25 张真实系统架构地图。' }],
+    ['meta', { property: 'og:description', content: '像架构师一样思考:14 章教程(入门 + 进阶)+ 25 张真实系统架构地图。' }],
     // Hypothesis 划词标注:选中正文文字即可高亮 + 评论,标注持久化、所有访客可见
     ['script', { src: 'https://hypothes.is/embed.js', async: '' }],
   ],
@@ -85,14 +93,18 @@ export default defineConfig({
           { text: '架构模板', link: '/templates/README' },
         ],
         sidebar: {
-          '/tutorial/': [{ text: '📚 教程', items: zhTutorial }],
+          '/tutorial/': [
+            { text: '📚 入门篇', items: zhTutorial },
+            { text: '🚀 进阶篇', items: zhTutorialAdvanced },
+          ],
           '/templates/': [
             { text: '🗺️ 经典 / 通用系统', items: zhCommon },
             { text: '🤖 AI 原生系统', items: zhAI },
             { text: '🦾 AI 编码 / 自治 Agent', items: zhAgent },
           ],
           '/': [
-            { text: '📚 教程', collapsed: false, items: zhTutorial },
+            { text: '📚 教程 · 入门篇', collapsed: false, items: zhTutorial },
+            { text: '🚀 教程 · 进阶篇', collapsed: false, items: zhTutorialAdvanced },
             { text: '🗺️ 经典 / 通用系统', collapsed: true, items: zhCommon },
             { text: '🤖 AI 原生系统', collapsed: true, items: zhAI },
             { text: '🦾 AI 编码 / 自治 Agent', collapsed: true, items: zhAgent },
@@ -123,7 +135,7 @@ export default defineConfig({
         sidebar: {
           '/en/': [
             {
-              text: '📚 Tutorial',
+              text: '📚 Tutorial · Foundations',
               items: [
                 { text: 'Overview', link: '/en/tutorial/README' },
                 { text: '01 · Why architecture comes first', link: '/en/tutorial/01-为什么先有架构思维' },
@@ -135,6 +147,17 @@ export default defineConfig({
                 { text: '07 · Designing from 0 to 1', link: '/en/tutorial/07-从0到1设计一个系统' },
                 { text: '08 · ADRs & evolution', link: '/en/tutorial/08-架构决策记录与演进' },
                 { text: '09 · Architectural taste', link: '/en/tutorial/09-架构品味' },
+              ],
+            },
+            {
+              text: '🚀 Tutorial · Advanced',
+              collapsed: true,
+              items: [
+                { text: '10 · Distributed systems: hard truths', link: '/en/tutorial/10-分布式系统的硬道理' },
+                { text: '11 · The engineering of data consistency', link: '/en/tutorial/11-数据一致性工程' },
+                { text: '12 · Designing for failure: resilience', link: '/en/tutorial/12-为失败而设计' },
+                { text: '13 · The mechanics of scale', link: '/en/tutorial/13-规模化的力学' },
+                { text: '14 · Evolving & splitting large systems', link: '/en/tutorial/14-演进与拆分大型系统' },
               ],
             },
             {
