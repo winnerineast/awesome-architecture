@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "Awesome Architecture"
   text: "像架构师一样思考"
-  tagline: 写代码这件事正在消失,而判断力越来越值钱。26 章架构思维教程(入门 + 进阶 + 实战 + AI 协同,四篇全完结)+ 25 张真实系统架构地图——只讲架构,不讲语法。
+  tagline: 写代码这件事正在消失,而判断力越来越值钱。26 章架构思维教程 + 25 张真实系统架构地图 + 6 个端到端案例推演——只讲架构,不讲语法。
   actions:
     - theme: brand
       text: 开始学习 →
@@ -12,6 +12,9 @@ hero:
     - theme: alt
       text: 浏览 25 个架构模板
       link: /templates/README
+    - theme: alt
+      text: 阅读 6 个案例
+      link: /cases/README
     - theme: alt
       text: GitHub
       link: https://github.com/study8677/awesome-architecture
@@ -23,6 +26,9 @@ features:
   - icon: 🗺️
     title: 25 张真实系统架构地图
     details: 从电商、社交信息流、IM、视频流,到 AI 网关、RAG、模型推理服务,每张都讲清「为什么这么设计、会死在哪」。
+  - icon: 🧪
+    title: 6 个端到端案例推演
+    details: 从抢票、SaaS、企业 RAG、实时协同、内容分发到编码 Agent,把一个项目从 0 推到真实压力下。
   - icon: ⚖️
     title: 决策与取舍才是核心
     details: 每个模板都列出关键岔路口、放弃了什么、规模化时第一个瓶颈在哪——这是面试和实战最值钱的部分。
@@ -36,6 +42,10 @@ features:
 点下方分类筛选,点任意卡片直达对应模板的「架构地图」。
 
 <ArchExplorer />
+
+## 🧪 阅读第一批 6 个案例
+
+案例篇不是更多模板,而是完整项目推演:从起始架构、量化信号、触发升级,一路讲到 ADR、数据流、故障兜底和随堂检验。👉 [进入案例篇](/cases/README)
 
 ## ⚖️ 架构,就是在岔路口做选择
 

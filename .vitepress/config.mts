@@ -98,7 +98,7 @@ const zhAgent = [
 
 export default defineConfig({
   title: 'Awesome Architecture',
-  description: '专注「架构思维」的中文知识库:26 章教程(入门 + 进阶 + 实战 + AI 协同)+ 25 张真实系统架构地图。',
+  description: '专注「架构思维」的中英双语知识库:26 章教程 + 25 张真实系统架构地图 + 6 个端到端案例。',
   lang: 'zh-Hans',
   base: process.env.GITHUB_PAGES ? '/awesome-architecture/' : '/',
   cleanUrls: true,
@@ -108,7 +108,7 @@ export default defineConfig({
   head: [
     ['meta', { name: 'theme-color', content: '#3c8772' }],
     ['meta', { property: 'og:title', content: 'Awesome Architecture · 架构图谱' }],
-    ['meta', { property: 'og:description', content: '像架构师一样思考:26 章教程(入门 + 进阶 + 实战 + AI 协同)+ 25 张真实系统架构地图。' }],
+    ['meta', { property: 'og:description', content: '像架构师一样思考:26 章教程 + 25 张真实系统架构地图 + 6 个端到端案例。' }],
     // 注:Hypothesis 划词标注不再全站默认加载;改由评论区顶部的 toggle 按需注入。
     // 见 .vitepress/theme/components/Comments.vue 的 loadHypothesis()。
   ],

@@ -4,11 +4,14 @@ layout: home
 hero:
   name: "Awesome Architecture"
   text: "Think like an architect"
-  tagline: "Writing code is disappearing; judgment is what's getting valuable. 26 chapters on architectural thinking (foundations + advanced + practice + AI-collab, all complete) + 25 architecture maps of real systems — architecture only, no syntax."
+  tagline: "Writing code is disappearing; judgment is what's getting valuable. 26 architecture-thinking chapters + 25 real-system architecture maps + 6 end-to-end cases — architecture only, no syntax."
   actions:
     - theme: brand
       text: Start the tutorial →
       link: /en/tutorial/README
+    - theme: alt
+      text: Read 6 cases
+      link: /en/cases/README
     - theme: alt
       text: Browse in 中文
       link: /
@@ -23,6 +26,9 @@ features:
   - icon: 🗺️
     title: 25 architecture maps
     details: From e-commerce, social feeds, chat and video to AI gateways, RAG and inference serving — each explains why it's built that way and where it breaks.
+  - icon: 🧪
+    title: 6 end-to-end cases
+    details: Ticketing, SaaS, enterprise RAG, realtime collaboration, content distribution, and coding Agents — each pushed from zero into real pressure.
   - icon: ⚖️
     title: Decisions & trade-offs first
     details: Every template lists the real forks in the road, what was given up, and the first bottleneck at scale.
@@ -31,13 +37,17 @@ features:
     details: Each template links to real open-source projects and engineering papers (vLLM, LiteLLM, TigerBeetle, Uber H3, Figma…).
 ---
 
-> ✅ **Fully bilingual.** All 26 tutorial chapters and 25 templates are available in English — use the language switch (top-right) or browse `en/` in the repo. [Contributions welcome](https://github.com/study8677/awesome-architecture).
+> ✅ **Fully bilingual.** All 26 tutorial chapters, 25 templates, and the first 6 cases are available in English — use the language switch (top-right) or browse `en/` in the repo. [Contributions welcome](https://github.com/study8677/awesome-architecture).
 
 ## 🗺️ Browse all 25 architecture maps
 
 Click a category to filter, then click any card to jump to that template's architecture map.
 
 <ArchExplorer />
+
+## 🧪 Read the first 6 cases
+
+The case track is not more templates. It is a full product walkthrough: starting architecture, quantified trigger signals, ADRs, data flow, failure fallbacks, and quick checks. 👉 [Enter the case track](/en/cases/README)
 
 ## ⚖️ Architecture is a series of forks in the road
 
